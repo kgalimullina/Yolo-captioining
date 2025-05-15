@@ -22,9 +22,8 @@
 
 ### Локальная установка
 ```
-git clone https://github.com/kgalimullina/Yolo-captioining/tree/main
+git clone https://github.com/kgalimullina/Yolo-captioining
 cd Yolo-captioining
-pip install -r requirements.txt
 streamlit run app.py
 ```
 Технические детали
