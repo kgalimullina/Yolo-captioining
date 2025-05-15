@@ -35,11 +35,18 @@ streamlit run app.py
 ### Структура папок
 Yolo_captioning/
 ├── model.ipynb     # Ноутбук с начальной моделью
+
 ├── yolo.ipynb        # Ноутбук дообучения YOLO
+
 ├── metrics
+
 │      └── weights/          # Веса моделей
+
 │           ├── best.pt       # Лучшие веса YOLO
+
 │           └── last.pt       # Последние веса YOLO
+
 │      └── всякие графики 
+
 ├── app.py         # Основное приложение
 
