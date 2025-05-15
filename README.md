@@ -20,20 +20,20 @@
 
 ---
 
-## 🚀 Быстрый запуск  
-
-### Через Google Colab  
+## 🚀 Запуск через Google Colab
 1. Откройте [ноутбук](https://colab.research.google.com/drive/1QUl9k9VcZSXcfwJHFXUDF_YtXUWgqBtH)  
 2. Выполните:  
-```python
+```
 !pip install ultralytics streamlit
 !streamlit run app.py
+```
 ### Локальная установка
+```
 git clone 
 cd flower-detection-yolo
 pip install -r requirements.txt
 streamlit run app.py
-
+```
 Технические детали
 Модель: YOLOv8 (дообучена на 14 классах цветов)
 
