@@ -27,8 +27,9 @@ cd Yolo-captioining
 streamlit run app.py
 ```
 ## Технические детали
-Модель: YOLOv8 
-Данные: Датасет  основной: https://drive.google.com/drive/folders/11uqwJ5_yap4T2M-04xr5cgyFlEL23UWw?usp=sharing
-Дообучение на более 700 размеченных вручную фотографий с помощью label studio https://drive.google.com/file/d/1lBm4XkbRg7GO2S6Yb1zVcL5jCFrY2EJF/view?usp=sharing
+# Модель: YOLOv8 
+# Данные: 
+ - Датасет  основной: https://drive.google.com/drive/folders/11uqwJ5_yap4T2M-04xr5cgyFlEL23UWw?usp=sharing
+ - Дообучение на более 700 размеченных вручную фотографий с помощью label studio: https://drive.google.com/file/d/1lBm4XkbRg7GO2S6Yb1zVcL5jCFrY2EJF/view?usp=sharing
 
 
