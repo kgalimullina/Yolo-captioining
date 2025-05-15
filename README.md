@@ -33,20 +33,12 @@ streamlit run app.py
  - Дообучение на более 700 размеченных вручную фотографий с помощью label studio: https://drive.google.com/file/d/1lBm4XkbRg7GO2S6Yb1zVcL5jCFrY2EJF/view?usp=sharing
 ---
 ### Структура папок
-Yolo_captioning/
-├── model.ipynb     # Ноутбук с начальной моделью
-
-├── yolo.ipynb        # Ноутбук дообучения YOLO
-
-├── metrics
-
-│      └── weights/          # Веса моделей
-
-│           ├── best.pt       # Лучшие веса YOLO
-
-│           └── last.pt       # Последние веса YOLO
-
-│      └── всякие графики 
-
-├── app.py         # Основное приложение
+- model.ipynb     # Ноутбук с начальной моделью
+- yolo.ipynb        # Ноутбук дообучения YOLO
+- metrics
+   weights        # Веса моделей
+     best.pt       # Лучшие веса YOLO
+     last.pt       # Последние веса YOLO
+   всякие графики 
+- app.py         # Основное приложение
 
