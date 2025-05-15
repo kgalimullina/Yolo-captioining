@@ -22,8 +22,8 @@
 
 ### Локальная установка
 ```
-git clone 
-cd flower-detection-yolo
+git clone https://github.com/kgalimullina/Yolo-captioining/tree/main
+cd Yolo-captioining
 pip install -r requirements.txt
 streamlit run app.py
 ```
